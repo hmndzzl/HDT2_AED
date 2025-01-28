@@ -1,10 +1,10 @@
 import java.util.ArrayList;
 
-public class Vstack<E> implements Stack<E> {
+public class VectorStack<E> implements Stack<E> {
     private ArrayList<E> elementos;
 
     //Constructor para iniciar stack
-    public Vstack() {
+    public VectorStack() {
         this.elementos = new ArrayList<>();
     }
 
