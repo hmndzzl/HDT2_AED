@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+import java.util.ArrayList; //ArrayList para almacenar los datos que se obtienen del archivo .txt
 
 public class VectorStack<E> implements Stack<E> {
     private ArrayList<E> elementos;
