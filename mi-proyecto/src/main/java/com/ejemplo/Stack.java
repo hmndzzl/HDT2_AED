@@ -1,27 +1,31 @@
-/**@param*/ 
+/**@param Tipo de elemento almacenado en el stack*/ 
+
 public interface Stack<E>{
 
     /**metodo para agregar los valores al stack.
-    @param*/
+    @param El valor que se va agregar
+    */
     public void push(E item);
 
     /**Metodo para eliminar los valores del stack.
-    @return
-    @throws*/
+    @return El valor que se va eliminar del stack.
+    @throws Expresion incorrecta si el stack esta vacio.
+    */
     public E pop();
 
     /**Obtiene el valor mas reciente del stack sin eliminarlo.
-    @return
-    @throws*/
+    @return Despliega el valor mas reciente del stack.
+    @throws Expresion incorrecta si el stack esta vacio.
+    */
     public E peek();
 
     /**Hace revision si el stack se encuentra vacio.
-    @return*/
+    @return Se cumple si el stack se encuentra vacio.
+    */
     public boolean empty();
 
     /**Obtiene la cantidad de elementos en el stack.
-    @return*/
-    public int size();
-
-    
+    @return Despliega la cantidad de elementos en el stack.
+    */
+    public int size();  
 }
