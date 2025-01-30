@@ -1,3 +1,15 @@
+/**
+ * Universidad del Valle de Guatemala
+ * Algoritmos y Estructuras de datos
+ * Ing. Douglas Barrios
+ * @author: Luis Chon, Andrés Ismalej y Hugo Mendez.
+ * Creación: 27/01/25
+ * Última modificación: 29/01/25
+ * @FileName: PostfixCalc.java
+ * Descripción: Clase PostfixCalc que utiliza una pila para procesar operandos y operadores.
+ */
+package com.ejemplo;
+
 import java.util.StringTokenizer; //Biblioteca que funciona para separar los Strings.
 
 public class PostfixCalc {
@@ -47,7 +59,7 @@ public class PostfixCalc {
                 }
                 return OperandoA / OperandoB;
             case "%": //operacion modular.
-            return OperandoA % OperandoB;
+                return OperandoA % OperandoB;
             
             default:
                 throw new IllegalArgumentException("Operador invalido: ");

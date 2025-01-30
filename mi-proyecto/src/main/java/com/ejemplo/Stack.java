@@ -1,3 +1,15 @@
+/**
+ * Universidad del Valle de Guatemala
+ * Algoritmos y Estructuras de datos
+ * Ing. Douglas Barrios
+ * @author: Luis Chon, Andrés Ismalej y Hugo Mendez.
+ * Creación: 27/01/25
+ * Última modificación: 29/01/25
+ * @FileName: Stack.java
+ * Descripción: Clase Interfaz que define las operaciones básicas de una pila (Stack).
+ */
+package com.ejemplo;
+
 /**@param Tipo de elemento almacenado en el stack*/ 
 
 public interface Stack<E>{

@@ -1,3 +1,15 @@
+/**
+ * Universidad del Valle de Guatemala
+ * Algoritmos y Estructuras de datos
+ * Ing. Douglas Barrios
+ * @author: Luis Chon, Andrés Ismalej y Hugo Mendez.
+ * Creación: 27/01/25
+ * Última modificación: 29/01/25
+ * @FileName: VectorStack.java
+ * Descripción: Clase VectorStack que proporciona operaciones estándar de una pila, como push, pop, peek, empty y size.
+ */
+package com.ejemplo;
+
 import java.util.ArrayList; //ArrayList para almacenar los datos que se obtienen del archivo .txt
 
 public class VectorStack<E> implements Stack<E> {
