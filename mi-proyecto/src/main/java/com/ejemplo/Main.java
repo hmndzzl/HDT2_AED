@@ -17,7 +17,7 @@ import java.util.Objects; //Comprueba la nulidad.
 public class Main {
     public static void main(String[] args) throws Exception {
         //Abre el archivo .txt y lee la primera linea de este para obtener la expresion postfix.
-        BufferedReader reader = new BufferedReader(new FileReader("Value.txt")); 
+        BufferedReader reader = new BufferedReader(new FileReader("Datos.txt")); 
         String expression = reader.readLine();
         reader.close();
 
