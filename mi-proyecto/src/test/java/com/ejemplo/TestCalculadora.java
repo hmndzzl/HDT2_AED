@@ -1,3 +1,12 @@
+/**
+ * Universidad del Valle de Guatemala
+ * Algoritmos y Estructuras de datos
+ * Ing. Douglas Barrios
+ * @author: Luis Chon, Andrés Ismalej y Hugo Mendez.
+ * Creación: 30/01/25
+ * Última modificación: 30/01/25
+ * @FileName: TestCalculadora.java
+ */
 package com.ejemplo;
 
 import static org.junit.Assert.assertEquals;
