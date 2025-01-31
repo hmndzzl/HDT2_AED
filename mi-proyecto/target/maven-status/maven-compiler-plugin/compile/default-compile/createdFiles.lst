@@ -1,1 +1,4 @@
-com/ejemplo/App.class
+com/ejemplo/Main.class
+com/ejemplo/PostfixCalc.class
+com/ejemplo/VectorStack.class
+com/ejemplo/Stack.class
